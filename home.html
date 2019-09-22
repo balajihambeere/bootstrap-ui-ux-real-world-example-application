@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Vegam Work</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <link rel="stylesheet" href="./content/css/bootstrap.min.css">
+    <style>
+        .bg-dark {
+            background-color: #000000 !important;
+        }
+
+        .body-bg {
+            background-color: #121212 !important;
+            color: #ffffff;
+        }
+
+        .list-group-item {
+            background-color: transparent;
+        }
+
+        .form-control-dark {
+            color: #fff;
+            background-color: rgba(255, 255, 255, .1);
+            border-color: rgba(255, 255, 255, .1);
+        }
+
+        .form-control-dark:focus {
+            border-color: transparent;
+            box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+        }
+
+        a {
+            color: #B88BF1 !important;
+        }
+
+        .btn-primary {
+            color: #000000;
+            background-color: #B88BF1;
+            border-color: #B88BF1;
+        }
+
+        .navbar-brand {
+            color: #FF0266 !important;
+        }
+
+        .footer-color {
+            color: #B88BF1 !important;
+        }
+    </style>
+</head>
+
+<body class="body-bg">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><i>VEGAMWORK</i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Login <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Register</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="row container mt-5">
+        <div class="col-md-8">
+            <ul class="list-group border-0 ml-5">
+                <li class="list-group-item display-4 border-0">
+                    <h1> <i class="fa fa-check" aria-hidden="true"></i>
+                        Create
+                        Unlimited Projects</h1>
+                </li>
+                <li class="list-group-item display-4 border-0">
+                    <h1> <i class="fa fa-check" aria-hidden="true"></i>
+                        Create
+                        Unlimited Tasks</h1>
+                </li>
+                <li class="list-group-item  display-4 border-0">
+                    <h1> <i class="fa fa-check" aria-hidden="true"></i>
+                        Group Task Project Wise</h1>
+                </li>
+                <li class="list-group-item  display-4 border-0">
+                    <h1> <i class="fa fa-check" aria-hidden="true"></i>
+                        Tract Task by status</h1>
+                </li>
+                <li class="list-group-item  display-4 border-0">
+                    <h1> <i class="fa fa-check" aria-hidden="true"></i>
+                        Schedule Task with dates </h1>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <form>
+                <div class="form-group">
+                    <label for="inputEmail">Email address</label>
+                    <input type="email" class="form-control form-control-dark" id="inputEmail"
+                        aria-describedby="emailHelp" placeholder="Enter email *">
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword">Password</label>
+                    <input type="password" class="form-control form-control-dark" id="inputPassword"
+                        placeholder="Enter password *">
+                </div>
+                <div class="form-group">
+                    <label for="inputConfirmPassword">Confirm Password</label>
+                    <input type="password" class="form-control form-control-dark" id="inputConfirmPassword"
+                        placeholder="Re Enter password *">
+                </div>
+                <footer>
+                    <button type="submit" class="btn btn-primary">Register</button>
+                    <span class="float-right mt-3">
+                        Already have an account?
+                        <a href="./dashboard.html"> LogIn</a>
+                    </span>
+                </footer>
+
+            </form>
+        </div>
+    </div>
+    <footer class="fixed-bottom text-center p-3 footer-color">
+        Task Manager v1.0.0 © Copyright 2019
+    </footer>
+    <script src="./content/js/jquery-3.4.1.min.js"></script>
+    <script src="./content/js/bootstrap.min.js"></script>
+</body>
+
+</html>
